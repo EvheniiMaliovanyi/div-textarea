@@ -1,0 +1,91 @@
+@import "normalize";
+@import "layout";
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+body{
+
+}
+
+
+
+/* Layout */
+.ba-container{
+	padding: 50px 20px;
+	max-width: 1200px;
+}
+
+
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+
+.view,
+.area {
+  height: 200px;
+  width: 500px;
+  font-family: Roboto;
+  font-size: 16px;
+}
+
+.view {
+
+  padding: 2px;
+  border: 3px solid green;
+  border-radius: 5px;
+}
+
+.area {
+  display: none;
+  border: 3px groove red;
+  border-radius: 5px;
+  padding: 0px;
+}
+
+.area:focus {
+  outline: none;
+}
